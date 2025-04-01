@@ -82,7 +82,7 @@ public class Main {
                     funcao_ataque(p1, p2, skill_name);
                 }else{
                     System.out.println("Sua habilidade 2 está em cooldown!");
-                    continue; /*ver esse continue pq ele está fazendo o p2 fazer o ataque dnv*/
+                    continue; /*ver esse continue pq ele está fazendo o p2 fazer oooo ataque dnv*/
                 }
             }
         }
