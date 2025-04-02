@@ -48,9 +48,10 @@ public abstract class Personagem implements Criatura{
     }
 
     @Override
-    public void receber_ataque(double dano) {
+    public double receber_ataque(double dano) {
         double dano_recebido = -1*(dano - defesa);
         updateVida(dano_recebido);
+        return dano_recebido;
     }/*retornar o dano real do ataque*/
 
     @Override

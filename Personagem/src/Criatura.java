@@ -7,7 +7,7 @@ public interface Criatura {
     double getAtaque();
     double getDefesa();
     double atacar(String skill_name);
-    public void receber_ataque(double dano);
+    public double receber_ataque(double dano);
     boolean estaVivo();
     void reset();
 }
